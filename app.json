@@ -7,6 +7,10 @@
      "URLS": {
       "description": "enter your site urls, seperated by space. Examples:-",
       "value": "https://google.com https://fb.com https://github.com"
+    },
+     "INTERVAL": {
+      "description": "set interval time between two pings in seconds. Default is 2 minutes",
+      "value": "120"
     }
    },
    "buildpacks": [
