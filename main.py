@@ -8,4 +8,4 @@ while True:
   for i in url:
     status = requests.get(i).status_code
     print(f"response of {i} = {status}")
-  time.sleep(60)
+  time.sleep(int(os.environ["INTERVAL"]))
