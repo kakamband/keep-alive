@@ -1,0 +1,17 @@
+{
+  "name": "Keep Alive - Magneto",
+  "description": "Heroku app to keep your other heroku/glitch/repl apps alive by ping them on a specific interval.",
+  "repository": "https://github.com/magneto261290/alive",
+  "keywords": ["get request", "ping site", "keep alive"],
+  "env": {
+     "URLS": {
+      "description": "enter your site urls, seperated by space. Examples:-",
+      "value": "https://google.com https://fb.com https://github.com"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
