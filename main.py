@@ -1,5 +1,7 @@
 import time
 import requests
+import os
+
 url = os.environ["URLS"]
 url = url.split(" ")
 while True:
